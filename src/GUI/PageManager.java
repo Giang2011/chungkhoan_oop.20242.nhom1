@@ -4,19 +4,23 @@ public class PageManager {
         return new DashboardPage();
     }
 
-//    public ChatbotPage getChatbotPage() {
-//        return new ChatbotPage();
-//    }
+    public ChatbotPage getChatbotPage() {
+        return new ChatbotPage();
+    }
 
-//    public OwnedStocksPage getOwnedStocksPage() {
-//        return new OwnedStocksPage();
-//    }
+    public OwnedStocksPage getOwnedStocksPage() {
+        return new OwnedStocksPage();
+    }
 
-//    public StockDetailsPage getStockDetailsPage() {
-//        return new StockDetailsPage();
-//    }
+    public StockDetailsPage getStockDetailsPage() {
+        return new StockDetailsPage();
+    }
 
-//    public SettingsPage getSettingsPage() {
-//        return new SettingsPage();
-//    }
+    public SettingsPage getSettingsPage() {
+        return new SettingsPage();
+    }
+
+    public WatchList getWatchListPage() {
+        return new WatchList();
+    }
 }
